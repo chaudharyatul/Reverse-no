@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int n,r=0,Rem;
+    cout<<"give the number= ";
+    cin>>n;
+    
+    while(n>0)
+    {
+        Rem=n%10;
+      r=r*10+Rem  ;
+      n=n/10;
+    }
+    cout<<r;
+    return 0;
+}
